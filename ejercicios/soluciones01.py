@@ -16,4 +16,4 @@ def ejercicio01():
     # 5. mostrar los elementos de y pero solo las primeras 2 letras de cada palabra
     # hola nose que poner
     # 6. mostrar el duplicado de los elementos x => [2, 4, 10, 12, 16, 18]
-    # hola nose que poner
+    # hola nose que poner cambio
