@@ -6,7 +6,9 @@ def ejercicio01():
     y = ['manzana', 'naranjas', 'platano', 'uva']
 
     # 1. mostrar una lista con los divisores de a
-
+    for i in range(1, a + 1):
+        if a % i == 0:
+            print(i)
     # 2. mostrar las palabras de 'y' que su cantidad de letras es par
 
     # 3. mostrar la cadena b con un * entre cada letra => c*o*l*o*m*a
