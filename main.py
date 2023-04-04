@@ -1,8 +1,8 @@
-from temas.clase01 import *
+from temas.clase02 import *
 
 
 def run():
-    ejemplo6()
+    con_pistas('hola')
 
 
 # Press the green button in the gutter to run the script.
