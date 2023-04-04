@@ -2,7 +2,7 @@ from temas.clase02 import *
 
 
 def run():
-    con_pistas('hola')
+    con_pistas(123)
 
 
 # Press the green button in the gutter to run the script.
