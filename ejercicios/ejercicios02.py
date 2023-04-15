@@ -1,4 +1,7 @@
 # 1. crear una funcion que devuelve una lista con los divisores de un numero
+import functools
+
+
 def divisores(a):
     return [i for i in range(1, a + 1) if a % i == 0]
 
@@ -12,7 +15,8 @@ def divisores(a):
 
 # 2. crear una funcion que reciba n numeros y devuelva el producto de todos
 def producto(*args):
-    return 1 if not args else (resultado:=1, [resultado:=resultado * arg for arg in args][-1])[1]
+    # return 1 if not args else (resultado:=1, [resultado:=resultado * arg for arg in args][-1])[1]
+    return functools.reduce(lambda a, b: a * b, args)
 
     # resultado = 1
     # for arg in args:
